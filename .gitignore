@@ -1,0 +1,19 @@
+.env
+__pycache__/
+instructor_guide.html
+
+# 가상환경
+.venv/
+venv/
+
+# 인증정보 · 로컬 설정
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.claude/settings.local.json
+
+# 파이썬 · OS 부산물
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
